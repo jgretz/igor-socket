@@ -1,5 +1,5 @@
 {
-  "name": "igor-util",
+  "name": "@jgretz/igor-util",
   "version": "1.0.0",
   "description": "utility logic to support igor microservices",
   "author": "jgretz",
