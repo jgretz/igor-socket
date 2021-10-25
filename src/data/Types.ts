@@ -10,7 +10,7 @@ export interface DataArgs {
   type: DataEvents;
   source: string;
   resource: string;
-  query?: string;
+  query?: {string: unknown};
   id?: number;
-  body?: string;
+  body?: {string: unknown};
 }
