@@ -1,4 +1,4 @@
-export enum DataEvents {
+export declare enum DataEvents {
   Find = 'Find',
   FindOne = 'FindOne',
   Create = 'Create',
@@ -10,7 +10,16 @@ export interface DataArgs {
   type: DataEvents;
   source: string;
   resource: string;
-  query?: {string: unknown};
+  query?: {
+    string: unknown;
+  };
   id?: number;
-  body?: {string: unknown};
+  body?: {
+    string: unknown;
+  };
+}
+
+export interface DataArgsWrapper {
+  id: number;
+  args: DataArgs;
 }
