@@ -1,5 +1,5 @@
 export type QueryString = {string: unknown};
-export type Body = {string: unknown};
+export type Body = {string: unknown} & object;
 
 export interface ITypeORMService {
   find(query?: {string: unknown}): Promise<Array<unknown>>;
