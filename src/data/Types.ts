@@ -1,4 +1,4 @@
-export declare enum DataEvents {
+export enum DataEvents {
   Find = 'Find',
   FindOne = 'FindOne',
   Create = 'Create',
